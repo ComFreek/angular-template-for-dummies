@@ -1,3 +1,13 @@
 <h1>
   Welcome to {{title}}!
 </h1>
+
+<h4 *ngIf="auth.isAuthenticated()">
+  You are logged in!
+  <button (click)="auth.logout()">Log Out</button>
+
+</h4>
+<h4 *ngIf="!auth.isAuthenticated()">
+  You are not logged in! Please
+  <button (click)="auth.login()">Log In</button> to continue.
+</h4>

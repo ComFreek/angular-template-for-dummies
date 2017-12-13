@@ -26,7 +26,8 @@
     "intl": "1.2.5",
     "rxjs": "5.5.6",
     "web-animations-js": "2.3.1",
-    "zone.js": "0.8.19"
+    "zone.js": "0.8.19",
+    "auth0-js": "9.0.2"
   },
   "devDependencies": {
     "@angular/cli": "1.6.3",
