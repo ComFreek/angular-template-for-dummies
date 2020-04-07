@@ -23,7 +23,7 @@
     "core-js": "^3.2.1",
     "rxjs": "^6.5.2",
     "three": "^0.107.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.802.2",
